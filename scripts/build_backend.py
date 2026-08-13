@@ -10,11 +10,17 @@ from typing import Any
 
 
 def _metadata() -> str:
-    return """Metadata-Version: 2.1
+    return """Metadata-Version: 2.4
 Name: model-optimization-rl-post-training-101
 Version: 0.1.0
 Summary: CPU-first post-training curriculum
 Requires-Python: >=3.12
+Provides-Extra: docs
+Requires-Dist: mkdocs<2,>=1.6; extra == "docs"
+Provides-Extra: dev
+Requires-Dist: mkdocs<2,>=1.6; extra == "dev"
+Requires-Dist: mypy<2,>=1.13; extra == "dev"
+Requires-Dist: ruff<1,>=0.8; extra == "dev"
 """
 
 
