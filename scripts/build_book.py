@@ -27,7 +27,7 @@ def build() -> str:
             "(../reference/", "(../docs/reference/"
         )
         parts.extend([text, "\n\n---\n\n"])
-    return "".join(parts)
+    return "".join(parts).rstrip() + "\n"
 
 
 def main() -> int:
