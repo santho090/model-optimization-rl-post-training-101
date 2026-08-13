@@ -1,0 +1,45 @@
+site_name: model optimization, RL, and post-training 101
+site_description: A CPU-first course from gradients to safe post-training promotion.
+docs_dir: docs
+theme:
+  name: mkdocs
+nav:
+  - start here: index.md
+  - canonical beginner path:
+      - course map: spine/index.md
+      - "00 Map the post-training stack": spine/00-map-the-stack.md
+      - "01 Numbers, probability, and sampling": spine/01-numbers-probability-and-sampling.md
+      - "02 Vectors, matrices, and neural networks": spine/02-vectors-matrices-and-neural-networks.md
+      - "03 Parameters, forward passes, losses, and gradients": spine/03-parameters-forward-loss-gradient.md
+      - "04 A language model from tokens to loss": spine/04-language-model-from-tokens-to-loss.md
+      - "05 Objectives, baselines, and experiments": spine/05-objectives-and-experiments.md
+      - "06 Build the data pipeline": spine/06-data-pipeline.md
+      - "07 Build the evaluation harness first": spine/07-evaluation-harness.md
+      - "08 Supervised fine-tuning": spine/08-supervised-fine-tuning.md
+      - "09 LoRA, adapters, and training memory": spine/09-lora-and-memory.md
+      - "10 Preference data and feedback": spine/10-preference-data.md
+      - "11 Reward models": spine/11-reward-models.md
+      - "12 RL from bandits to Markov decision processes": spine/12-rl-from-bandits-to-mdps.md
+      - "13 Policy gradients and REINFORCE": spine/13-policy-gradients.md
+      - "14 PPO and KL control": spine/14-ppo-and-kl-control.md
+      - "15 Direct Preference Optimization": spine/15-dpo.md
+      - "16 Verifiable rewards, human feedback, and AI feedback": spine/16-verifiable-rewards-and-rlaif.md
+      - "17 GRPO and group-relative advantages": spine/17-grpo.md
+      - "18 Agents, tools, and environments": spine/18-agents-tools-and-environments.md
+      - "19 The training system: memory, parallelism, and rollouts": spine/19-training-systems.md
+      - "20 Failure modes, reward hacking, and safety": spine/20-failure-modes-and-safety.md
+      - "21 Promotion, deployment, monitoring, and iteration": spine/21-production-loop.md
+      - "22 Capstone: optimize one small model end to end": spine/22-capstone.md
+  - practicals:
+      - playgrounds: playgrounds/index.md
+      - end-to-end capstone: capstones/end-to-end.md
+  - reference:
+      - evidence contract: reference/evidence.md
+      - algorithm chooser: reference/algorithm-chooser.md
+      - real training bridge: reference/real-training-bridge.md
+      - glossary: reference/glossary.md
+      - sources: reference/sources.md
+      - experiment record: reference/experiment-record.md
+markdown_extensions:
+  - tables
+  - fenced_code

@@ -1,0 +1,30 @@
+{
+  "evidence_boundary": "Generated chapters plus deterministic CPU teaching code; no LLM training run is claimed.",
+  "lesson_count": 23,
+  "order": [
+    "00-map-the-stack",
+    "01-numbers-probability-and-sampling",
+    "02-vectors-matrices-and-neural-networks",
+    "03-parameters-forward-loss-gradient",
+    "04-language-model-from-tokens-to-loss",
+    "05-objectives-and-experiments",
+    "06-data-pipeline",
+    "07-evaluation-harness",
+    "08-supervised-fine-tuning",
+    "09-lora-and-memory",
+    "10-preference-data",
+    "11-reward-models",
+    "12-rl-from-bandits-to-mdps",
+    "13-policy-gradients",
+    "14-ppo-and-kl-control",
+    "15-dpo",
+    "16-verifiable-rewards-and-rlaif",
+    "17-grpo",
+    "18-agents-tools-and-environments",
+    "19-training-systems",
+    "20-failure-modes-and-safety",
+    "21-production-loop",
+    "22-capstone"
+  ],
+  "schema_version": 1
+}

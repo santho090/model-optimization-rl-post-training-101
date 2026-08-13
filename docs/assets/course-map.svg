@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Model optimization, reinforcement learning, and post-training course map</title>
+  <desc id="desc">An ordered flow from task contract through foundations, supervised fine-tuning, preferences, reinforcement learning, systems, and safe promotion.</desc>
+  <rect width="1200" height="420" rx="28" fill="#07111f"/>
+  <text x="60" y="74" fill="#f8fafc" font-size="34" font-family="system-ui" font-weight="700">From intent to a safely promoted model</text>
+  <text x="60" y="112" fill="#9fb3c8" font-size="19" font-family="system-ui">One beginner path. Every arrow preserves evidence and identity.</text>
+  <g font-family="system-ui" font-size="17" text-anchor="middle">
+    <g fill="#13263d" stroke="#38bdf8" stroke-width="2"><rect x="50" y="175" width="160" height="100" rx="15"/><rect x="238" y="175" width="160" height="100" rx="15"/><rect x="426" y="175" width="160" height="100" rx="15"/><rect x="614" y="175" width="160" height="100" rx="15"/><rect x="802" y="175" width="160" height="100" rx="15"/><rect x="990" y="175" width="160" height="100" rx="15"/></g>
+    <g fill="#e6f6ff"><text x="130" y="215">Task + frozen</text><text x="130" y="240">evaluation</text><text x="318" y="215">Probability, loss</text><text x="318" y="240">and gradients</text><text x="506" y="215">SFT + LoRA</text><text x="506" y="240">demonstrations</text><text x="694" y="215">Preferences, DPO</text><text x="694" y="240">reward models</text><text x="882" y="215">RL, PPO, GRPO</text><text x="882" y="240">environments</text><text x="1070" y="215">Systems + safe</text><text x="1070" y="240">promotion</text></g>
+    <g stroke="#7dd3fc" stroke-width="3" fill="none"><path d="M210 225h28"/><path d="M398 225h28"/><path d="M586 225h28"/><path d="M774 225h28"/><path d="M962 225h28"/></g>
+  </g>
+  <text x="60" y="350" fill="#a7f3d0" font-size="18" font-family="system-ui">CPU teaching path: simulated</text>
+  <text x="405" y="350" fill="#fde68a" font-size="18" font-family="system-ui">Real-model bridge: specified-not-executed until run artifacts exist</text>
+</svg>

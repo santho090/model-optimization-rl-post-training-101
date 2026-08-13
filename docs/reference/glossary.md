@@ -1,0 +1,21 @@
+# Glossary
+
+- **action:** a choice sampled from a policy; in an LLM it may be a token, completion, or tool call.
+- **advantage:** how much better an action's outcome was than a baseline expectation.
+- **baseline:** the unchanged model or expected return used for comparison.
+- **checkpoint:** saved model and optimizer state at a particular training step.
+- **DPO:** an offline preference objective comparing policy and reference log-probability gaps.
+- **gradient:** local sensitivity of loss to a parameter.
+- **GRPO:** an online policy-optimization family using relative rewards within sampled groups.
+- **KL divergence:** a directional measure of how one probability distribution differs from another.
+- **logit:** an unrestricted score converted to probability by softmax.
+- **LoRA:** a low-rank trainable update added to frozen base matrices.
+- **loss:** a scalar training objective minimized by an optimizer.
+- **policy:** a probability distribution over actions given observations.
+- **PPO:** a policy-gradient method with a clipped probability-ratio surrogate.
+- **reference policy:** a fixed policy used to regularize or define relative preference movement.
+- **reward:** scalar feedback about an outcome; always incomplete unless the full task truly is scalar.
+- **reward model:** a learned scalar scorer trained from feedback such as preference pairs.
+- **RL:** learning a policy from consequences of sampled actions.
+- **SFT:** supervised fine-tuning on demonstrated response tokens.
+- **trajectory:** ordered observations, actions, and rewards from an environment interaction.
