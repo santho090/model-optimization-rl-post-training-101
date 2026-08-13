@@ -22,6 +22,12 @@ task and frozen evaluation
 
 Every chapter contains a plain-language mental model, the real mechanism, a worked example, a practical, an understanding check, failure modes, and primary sources. The [algorithm chooser](docs/reference/algorithm-chooser.md) explains when to use SFT, DPO, reward-model-plus-PPO, or GRPO.
 
+## Read the research track
+
+After the stable spine, follow the [important and current research track](docs/research/index.md). Its 24 lessons run from LoRA, QLoRA, REINFORCE, PPO, InstructGPT, Constitutional AI, process supervision, DPO, KTO, and SimPO through DeepSeekMath/GRPO, Tulu 3, DeepSeek-R1, Kimi k1.5, DAPO, Dr. GRPO, and ProRL, then into ICLR/ICML 2026 generalization and distribution-sharpening results plus the latest dated frontier work on re-solving, agent-engineered post-training, and continuous scientific rewards.
+
+The research snapshot is dated **2026-08-12**. Conference papers and preprints are labeled separately. Each lesson explains what changed, the reported evidence, what it does not prove, and the smallest useful reproduction. The [interactive research map](docs/playgrounds/research-map.html) lets you compare the papers by period and research question.
+
 Prefer one continuous file? Read the [single-file book](book/model-optimization-rl-post-training-101.md).
 
 ## Run the miniature stack
@@ -56,6 +62,7 @@ The default course stays dependency-free so every reader can run it. The [real-t
 ## Verify the repository
 
 ```bash
+python3.12 scripts/generate_research.py
 python3.12 scripts/generate_curriculum.py
 python3.12 scripts/build_book.py
 python3.12 scripts/validate_all.py

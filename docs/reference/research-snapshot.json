@@ -1,0 +1,368 @@
+{
+  "lesson_count": 24,
+  "lessons": [
+    {
+      "code_url": null,
+      "evidence": "reported",
+      "first_publication": "2026-08-12",
+      "id": "r00",
+      "paper_url": "https://arxiv.org/",
+      "slug": "read-research-without-being-fooled",
+      "status_checked": "course synthesis; not a research paper",
+      "title": "Read post-training research without being fooled",
+      "url_check": {
+        "checked_on": "2026-08-12",
+        "code_http_status": null,
+        "paper_http_status": 200
+      }
+    },
+    {
+      "code_url": "https://github.com/microsoft/LoRA",
+      "evidence": "reported",
+      "first_publication": "2021",
+      "id": "r01",
+      "paper_url": "https://arxiv.org/abs/2106.09685",
+      "slug": "lora",
+      "status_checked": "ICLR 2022 conference paper",
+      "title": "LoRA: learn a low-rank weight update instead of every weight",
+      "url_check": {
+        "checked_on": "2026-08-12",
+        "code_http_status": 200,
+        "paper_http_status": 200
+      }
+    },
+    {
+      "code_url": "https://github.com/artidoro/qlora",
+      "evidence": "reported",
+      "first_publication": "2023",
+      "id": "r02",
+      "paper_url": "https://arxiv.org/abs/2305.14314",
+      "slug": "qlora",
+      "status_checked": "NeurIPS 2023 paper",
+      "title": "QLoRA: quantize the frozen base while training adapters",
+      "url_check": {
+        "checked_on": "2026-08-12",
+        "code_http_status": 200,
+        "paper_http_status": 200
+      }
+    },
+    {
+      "code_url": "https://github.com/huggingface/trl/blob/main/trl/trainer/rloo_trainer.py",
+      "evidence": "reported",
+      "first_publication": "1992; RLOO paper 2024",
+      "id": "r03",
+      "paper_url": "https://aclanthology.org/2024.acl-long.662/",
+      "slug": "reinforce-and-rloo",
+      "status_checked": "REINFORCE: journal paper; RLOO: ACL 2024 paper",
+      "title": "From REINFORCE to RLOO: the simple policy-gradient line",
+      "url_check": {
+        "checked_on": "2026-08-12",
+        "code_http_status": 200,
+        "paper_http_status": 200
+      }
+    },
+    {
+      "code_url": "https://github.com/openai/baselines",
+      "evidence": "reported",
+      "first_publication": "2017",
+      "id": "r04",
+      "paper_url": "https://arxiv.org/abs/1707.06347",
+      "slug": "ppo",
+      "status_checked": "arXiv technical paper; widely used algorithm",
+      "title": "PPO: the general-purpose optimizer that entered RLHF",
+      "url_check": {
+        "checked_on": "2026-08-12",
+        "code_http_status": 200,
+        "paper_http_status": 200
+      }
+    },
+    {
+      "code_url": null,
+      "evidence": "reported",
+      "first_publication": "2022",
+      "id": "r05",
+      "paper_url": "https://arxiv.org/abs/2203.02155",
+      "slug": "instructgpt",
+      "status_checked": "NeurIPS 2022 paper",
+      "title": "InstructGPT: demonstrations, preferences, reward model, and PPO",
+      "url_check": {
+        "checked_on": "2026-08-12",
+        "code_http_status": null,
+        "paper_http_status": 200
+      }
+    },
+    {
+      "code_url": null,
+      "evidence": "reported",
+      "first_publication": "2022",
+      "id": "r06",
+      "paper_url": "https://arxiv.org/abs/2212.08073",
+      "slug": "constitutional-ai",
+      "status_checked": "arXiv research paper",
+      "title": "Constitutional AI: principles, self-revision, and AI feedback",
+      "url_check": {
+        "checked_on": "2026-08-12",
+        "code_http_status": null,
+        "paper_http_status": 200
+      }
+    },
+    {
+      "code_url": "https://github.com/openai/prm800k",
+      "evidence": "reported",
+      "first_publication": "2023",
+      "id": "r07",
+      "paper_url": "https://arxiv.org/abs/2305.20050",
+      "slug": "process-supervision",
+      "status_checked": "arXiv research paper; PRM800K data released",
+      "title": "Let's Verify Step by Step: outcome versus process supervision",
+      "url_check": {
+        "checked_on": "2026-08-12",
+        "code_http_status": 200,
+        "paper_http_status": 200
+      }
+    },
+    {
+      "code_url": "https://github.com/eric-mitchell/direct-preference-optimization",
+      "evidence": "reported",
+      "first_publication": "2023",
+      "id": "r08",
+      "paper_url": "https://arxiv.org/abs/2305.18290",
+      "slug": "dpo",
+      "status_checked": "NeurIPS 2023 paper",
+      "title": "DPO: turn preference optimization into a classification loss",
+      "url_check": {
+        "checked_on": "2026-08-12",
+        "code_http_status": 200,
+        "paper_http_status": 200
+      }
+    },
+    {
+      "code_url": "https://github.com/ContextualAI/HALOs",
+      "evidence": "reported",
+      "first_publication": "2024",
+      "id": "r09",
+      "paper_url": "https://arxiv.org/abs/2402.01306",
+      "slug": "kto",
+      "status_checked": "ICML 2024 conference paper",
+      "title": "KTO: learn from desirable and undesirable examples without pairs",
+      "url_check": {
+        "checked_on": "2026-08-12",
+        "code_http_status": 200,
+        "paper_http_status": 200
+      }
+    },
+    {
+      "code_url": "https://github.com/princeton-nlp/SimPO",
+      "evidence": "reported",
+      "first_publication": "2024",
+      "id": "r10",
+      "paper_url": "https://papers.nips.cc/paper_files/paper/2024/hash/e099c1c9699814af0be873a175361713-Abstract-Conference.html",
+      "slug": "simpo",
+      "status_checked": "NeurIPS 2024 conference paper",
+      "title": "SimPO: reference-free preference optimization with a length-normalized reward",
+      "url_check": {
+        "checked_on": "2026-08-12",
+        "code_http_status": 200,
+        "paper_http_status": 200
+      }
+    },
+    {
+      "code_url": "https://github.com/deepseek-ai/DeepSeek-Math",
+      "evidence": "reported",
+      "first_publication": "2024",
+      "id": "r11",
+      "paper_url": "https://arxiv.org/abs/2402.03300",
+      "slug": "deepseekmath-and-grpo",
+      "status_checked": "arXiv technical report",
+      "title": "DeepSeekMath: GRPO and verifiable mathematical rewards",
+      "url_check": {
+        "checked_on": "2026-08-12",
+        "code_http_status": 200,
+        "paper_http_status": 200
+      }
+    },
+    {
+      "code_url": "https://github.com/allenai/open-instruct",
+      "evidence": "reported",
+      "first_publication": "2024",
+      "id": "r12",
+      "paper_url": "https://arxiv.org/abs/2411.15124",
+      "slug": "tulu-3",
+      "status_checked": "arXiv technical report; open artifacts",
+      "title": "Tulu 3: an open post-training pipeline, not one magic loss",
+      "url_check": {
+        "checked_on": "2026-08-12",
+        "code_http_status": 200,
+        "paper_http_status": 200
+      }
+    },
+    {
+      "code_url": "https://github.com/deepseek-ai/DeepSeek-R1",
+      "evidence": "reported",
+      "first_publication": "2025",
+      "id": "r13",
+      "paper_url": "https://arxiv.org/abs/2501.12948",
+      "slug": "deepseek-r1",
+      "status_checked": "arXiv technical report; open model artifacts",
+      "title": "DeepSeek-R1: pure RL experiment versus the production recipe",
+      "url_check": {
+        "checked_on": "2026-08-12",
+        "code_http_status": 200,
+        "paper_http_status": 200
+      }
+    },
+    {
+      "code_url": null,
+      "evidence": "reported",
+      "first_publication": "2025",
+      "id": "r14",
+      "paper_url": "https://arxiv.org/abs/2501.12599",
+      "slug": "kimi-k1-5",
+      "status_checked": "arXiv technical report",
+      "title": "Kimi k1.5: long-context RL and long-to-short transfer",
+      "url_check": {
+        "checked_on": "2026-08-12",
+        "code_http_status": null,
+        "paper_http_status": 200
+      }
+    },
+    {
+      "code_url": "https://github.com/volcengine/verl/blob/main/docs/algo/dapo.md",
+      "evidence": "reported",
+      "first_publication": "2025",
+      "id": "r15",
+      "paper_url": "https://arxiv.org/abs/2503.14476",
+      "slug": "dapo",
+      "status_checked": "arXiv technical report; code and data released",
+      "title": "DAPO: make large-scale reasoning RL trainable and inspectable",
+      "url_check": {
+        "checked_on": "2026-08-12",
+        "code_http_status": 200,
+        "paper_http_status": 200
+      }
+    },
+    {
+      "code_url": "https://github.com/sail-sg/understand-r1-zero",
+      "evidence": "reported",
+      "first_publication": "2025",
+      "id": "r16",
+      "paper_url": "https://arxiv.org/abs/2503.20783",
+      "slug": "dr-grpo",
+      "status_checked": "arXiv critical study; code released",
+      "title": "Dr. GRPO: find length bias before celebrating longer reasoning",
+      "url_check": {
+        "checked_on": "2026-08-12",
+        "code_http_status": 200,
+        "paper_http_status": 200
+      }
+    },
+    {
+      "code_url": "https://huggingface.co/nvidia/Nemotron-Research-Reasoning-Qwen-1.5B",
+      "evidence": "reported",
+      "first_publication": "2025",
+      "id": "r17",
+      "paper_url": "https://arxiv.org/abs/2505.24864",
+      "slug": "prorl",
+      "status_checked": "arXiv research paper; weights released",
+      "title": "ProRL: does prolonged RL expand the reasoning boundary?",
+      "url_check": {
+        "checked_on": "2026-08-12",
+        "code_http_status": 200,
+        "paper_http_status": 200
+      }
+    },
+    {
+      "code_url": null,
+      "evidence": "reported",
+      "first_publication": "2026 conference publication; first posted 2025",
+      "id": "r18",
+      "paper_url": "https://openreview.net/forum?id=mvLhN0veUd",
+      "slug": "cross-domain-generalization",
+      "status_checked": "ICLR 2026 conference paper",
+      "title": "Breaking Barriers: RL gains often fail to cross domains",
+      "url_check": {
+        "checked_on": "2026-08-12",
+        "code_http_status": null,
+        "paper_http_status": 200
+      }
+    },
+    {
+      "code_url": "https://github.com/divelab/E2H-Reasoning",
+      "evidence": "reported",
+      "first_publication": "2026 conference publication; first posted 2025",
+      "id": "r19",
+      "paper_url": "https://openreview.net/forum?id=KJvHnl3kUv",
+      "slug": "easy-to-hard-curriculum",
+      "status_checked": "ICLR 2026 conference paper",
+      "title": "Easy-to-hard curriculum RL: keep the policy in a learnable zone",
+      "url_check": {
+        "checked_on": "2026-08-12",
+        "code_http_status": 200,
+        "paper_http_status": 200
+      }
+    },
+    {
+      "code_url": null,
+      "evidence": "reported",
+      "first_publication": "2026",
+      "id": "r20",
+      "paper_url": "https://openreview.net/forum?id=SVyjXhZlDe",
+      "slug": "power-sampling",
+      "status_checked": "ICML 2026 conference paper",
+      "title": "Scalable Power Sampling: test distribution sharpening before training",
+      "url_check": {
+        "checked_on": "2026-08-12",
+        "code_http_status": null,
+        "paper_http_status": 200
+      }
+    },
+    {
+      "code_url": null,
+      "evidence": "reported",
+      "first_publication": "2026-03-07",
+      "id": "r21",
+      "paper_url": "https://arxiv.org/abs/2603.07197",
+      "slug": "re2-resolving",
+      "status_checked": "arXiv preprint; frontier snapshot",
+      "title": "Re\u00b2: teach the policy to abandon a bad reasoning path",
+      "url_check": {
+        "checked_on": "2026-08-12",
+        "code_http_status": null,
+        "paper_http_status": 200
+      }
+    },
+    {
+      "code_url": "https://github.com/microsoft/RD-Agent/tree/main/rdagent/scenarios/rl/autorl_bench",
+      "evidence": "reported",
+      "first_publication": "2026-04-12",
+      "id": "r22",
+      "paper_url": "https://arxiv.org/abs/2604.10547",
+      "slug": "agent2-rl-bench",
+      "status_checked": "arXiv preprint and Microsoft Research publication page; frontier snapshot",
+      "title": "Agent\u00b2 RL-Bench: can agents engineer their own post-training loop?",
+      "url_check": {
+        "checked_on": "2026-08-12",
+        "code_http_status": 200,
+        "paper_http_status": 200
+      }
+    },
+    {
+      "code_url": null,
+      "evidence": "reported",
+      "first_publication": "2026-07-11",
+      "id": "r23",
+      "paper_url": "https://arxiv.org/abs/2607.10474",
+      "slug": "rl-with-verifiable-physics",
+      "status_checked": "arXiv preprint; latest dated frontier lesson in this snapshot",
+      "title": "RL with Verifiable Physics: replace binary reward with graded reality",
+      "url_check": {
+        "checked_on": "2026-08-12",
+        "code_http_status": null,
+        "paper_http_status": 200
+      }
+    }
+  ],
+  "schema_version": 1,
+  "selection_boundary": "Curated foundational and current primary research; not exhaustive.",
+  "snapshot_date": "2026-08-12"
+}

@@ -16,3 +16,7 @@ The curriculum prefers papers and official project documentation. Paper results 
 - [DeepSpeed ZeRO](https://www.deepspeed.ai/tutorials/zero/)
 
 Last live source review: 2026-08-12. The source registry used by generated chapters is in `scripts/curriculum_data.py`.
+
+## Dated research track
+
+The [research route](../research/index.md) maintains a separate machine-readable [research snapshot](research-snapshot.json). Its canonical records live in `scripts/research_data.py`. Every paper is linked to its primary publication page; available official code or model artifacts are linked separately. The research URLs returned HTTP 200 during the 2026-08-12 live audit. A reachable link proves availability, not correctness or reproduction.

@@ -9,6 +9,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from scripts.curriculum_data import LESSONS, SOURCE_URLS  # noqa: E402
+from scripts.research_data import RESEARCH_LESSONS  # noqa: E402
 
 
 def chapter(index: int) -> str:
@@ -117,6 +118,10 @@ def mkdocs() -> str:
         f'      - "{i:02d} {lesson.title}": spine/{i:02d}-{lesson.slug}.md'
         for i, lesson in enumerate(LESSONS)
     )
+    research_nav = "\n".join(
+        f'      - "R{i:02d} {lesson.title}": research/r{i:02d}-{lesson.slug}.md'
+        for i, lesson in enumerate(RESEARCH_LESSONS)
+    )
     return f"""site_name: model optimization, RL, and post-training 101
 site_description: A CPU-first course from gradients to safe post-training promotion.
 docs_dir: docs
@@ -127,8 +132,12 @@ nav:
   - canonical beginner path:
       - course map: spine/index.md
 {nav}
+  - important and current research:
+      - research route: research/index.md
+{research_nav}
   - practicals:
       - playgrounds: playgrounds/index.md
+      - research map: playgrounds/research-map.html
       - end-to-end capstone: capstones/end-to-end.md
   - reference:
       - evidence contract: reference/evidence.md

@@ -30,8 +30,35 @@ nav:
       - "20 Failure modes, reward hacking, and safety": spine/20-failure-modes-and-safety.md
       - "21 Promotion, deployment, monitoring, and iteration": spine/21-production-loop.md
       - "22 Capstone: optimize one small model end to end": spine/22-capstone.md
+  - important and current research:
+      - research route: research/index.md
+      - "R00 Read post-training research without being fooled": research/r00-read-research-without-being-fooled.md
+      - "R01 LoRA: learn a low-rank weight update instead of every weight": research/r01-lora.md
+      - "R02 QLoRA: quantize the frozen base while training adapters": research/r02-qlora.md
+      - "R03 From REINFORCE to RLOO: the simple policy-gradient line": research/r03-reinforce-and-rloo.md
+      - "R04 PPO: the general-purpose optimizer that entered RLHF": research/r04-ppo.md
+      - "R05 InstructGPT: demonstrations, preferences, reward model, and PPO": research/r05-instructgpt.md
+      - "R06 Constitutional AI: principles, self-revision, and AI feedback": research/r06-constitutional-ai.md
+      - "R07 Let's Verify Step by Step: outcome versus process supervision": research/r07-process-supervision.md
+      - "R08 DPO: turn preference optimization into a classification loss": research/r08-dpo.md
+      - "R09 KTO: learn from desirable and undesirable examples without pairs": research/r09-kto.md
+      - "R10 SimPO: reference-free preference optimization with a length-normalized reward": research/r10-simpo.md
+      - "R11 DeepSeekMath: GRPO and verifiable mathematical rewards": research/r11-deepseekmath-and-grpo.md
+      - "R12 Tulu 3: an open post-training pipeline, not one magic loss": research/r12-tulu-3.md
+      - "R13 DeepSeek-R1: pure RL experiment versus the production recipe": research/r13-deepseek-r1.md
+      - "R14 Kimi k1.5: long-context RL and long-to-short transfer": research/r14-kimi-k1-5.md
+      - "R15 DAPO: make large-scale reasoning RL trainable and inspectable": research/r15-dapo.md
+      - "R16 Dr. GRPO: find length bias before celebrating longer reasoning": research/r16-dr-grpo.md
+      - "R17 ProRL: does prolonged RL expand the reasoning boundary?": research/r17-prorl.md
+      - "R18 Breaking Barriers: RL gains often fail to cross domains": research/r18-cross-domain-generalization.md
+      - "R19 Easy-to-hard curriculum RL: keep the policy in a learnable zone": research/r19-easy-to-hard-curriculum.md
+      - "R20 Scalable Power Sampling: test distribution sharpening before training": research/r20-power-sampling.md
+      - "R21 Re²: teach the policy to abandon a bad reasoning path": research/r21-re2-resolving.md
+      - "R22 Agent² RL-Bench: can agents engineer their own post-training loop?": research/r22-agent2-rl-bench.md
+      - "R23 RL with Verifiable Physics: replace binary reward with graded reality": research/r23-rl-with-verifiable-physics.md
   - practicals:
       - playgrounds: playgrounds/index.md
+      - research map: playgrounds/research-map.html
       - end-to-end capstone: capstones/end-to-end.md
   - reference:
       - evidence contract: reference/evidence.md
